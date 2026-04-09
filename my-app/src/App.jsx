@@ -10,6 +10,8 @@ import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import Home from './navbar/home'
 import About from './navbar/about'
 import Contact from './navbar/contact'
+import Login from './navbar/login'
+import Register from './navbar/register'
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
       // <ClassComponentEx/> */}
     
        
-       
+
       <Router>
          <Nav/>
         <Routes>
